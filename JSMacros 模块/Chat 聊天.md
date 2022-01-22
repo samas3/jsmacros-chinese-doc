@@ -1,29 +1,29 @@
 # 本文档的命令前缀为 Chat
 --------------------
-### log(message, [await]) 返回 Void
+### log(message, [await]) 返回 void
 ### 在聊天中打印某些东西.
 * #### message *Object*: 要打印的对象（可以包含格式字符§）
 * #### await *Boolean, 可选*: 是否等待直到信息真的被发送到聊天（？）
-### say(message, [await]) 返回 Void
+### say(message, [await]) 返回 void
 ### 直接发送聊天.
 * #### message *String*: 同log（不能包含格式字符）
 * #### await *Boolean, 可选*: 同log
-### open(str, [await]) 返回 Void
+### open(str, [await]) 返回 void
 ### 打开聊天栏, 并自动输入某些内容.
 * #### str *String*: 要输入的内容（可以包含格式字符，但不要发出去）
 * #### await *Boolean, 可选*: 同log
-### title(title, subtitle, fadeIn, remain, fadeOut) 返回 Void
+### title(title, subtitle, fadeIn, remain, fadeOut) 返回 void
 ### 发送标题.
 * #### title *Object*: 主标题，填null为空
 * #### subtitle *Object*: 副标题，填null为空
 * #### fadeIn *Integer*: 淡入时间（tick）
 * #### remain *Integer*: 展示时间（tick）
 * #### fadeOut *Integer*: 淡出时间（tick）
-### actionbar(text, tinted) 返回 Void
+### actionbar(text, tinted) 返回 void
 ### 发送（那个在快捷栏上面的东西）.
 * #### text *Object": 内容
 * #### tinted *Boolean*: 是否变色（唱片机常用）
-### toast(title, desc) 返回 Void
+### toast(title, desc) 返回 void
 ### 显示一个提示（类似完成进度）
 * #### title *Object*: 标题
 * #### desc *Object*: 说明
