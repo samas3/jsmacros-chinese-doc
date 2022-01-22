@@ -33,7 +33,7 @@
 （不常用）
 ### getLogger([name]) 返回 Logger (https://logging.apache.org/log4j/2.x/log4j-api/apidocs/index.html?org/apache/logging/log4j/Logger.html)
 #### 返回一个 Logger（记录日志）.
-* #### name *String，可选*: 名字
+* #### name *String, 可选*: 名字
 （不常用）
 ### createTextHelperFromJSON(json) 返回 TextHelper
 #### 从 JSON 字符串产生一个 TextHelper.
