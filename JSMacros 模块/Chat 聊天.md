@@ -21,7 +21,7 @@
 * #### fadeOut *Integer*: 淡出时间（tick）
 ### actionbar(text, tinted) 返回 void
 #### 发送（那个在快捷栏上面的东西）.
-* #### text *Object": 内容
+* #### text *Object*: 内容
 * #### tinted *Boolean*: 是否变色（唱片机常用）
 ### toast(title, desc) 返回 void
 #### 显示一个提示（类似完成进度）
