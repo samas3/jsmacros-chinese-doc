@@ -38,4 +38,8 @@
 ### listDraw3Ds() 返回 List <Draw3D>
 #### 返回所有当前显示的 Draw3D.
 ### clearDraw3Ds() 返回 void
-#### 清除当前的所有 Draw2
+#### 清除当前的所有 Draw3D.
+### getMouseX() 返回 Double
+#### 返回当前鼠标 X 坐标.
+### getMouseY() 返回 Double
+#### 返回当前鼠标 Y 坐标.
