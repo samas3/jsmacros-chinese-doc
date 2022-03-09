@@ -1,9 +1,9 @@
 # 本文档的命令前缀为 Hud（不常用）
 # 下文的 ~ 请全部忽略
 --------------------
-### overlays (静态 不可变 Set <IDraw2D <Draw2D>> 变量)
+### overlays (静态 不可变 Set <IDraw2D <Draw2D~>> 变量)
 #### 千万别动.——原作者
-### renders (静态 不可变 Set <Draw3D> 变量)
+### renders (静态 不可变 Set <Draw3D~> 变量)
 #### 千万别动.——原作者
 --------------------
 ### createScreen(title, dirtBG) 返回 ScriptScreen (IScreen 接口的实例)
