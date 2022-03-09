@@ -25,7 +25,7 @@
 ### unregisterDraw2D(overlay) 返回 void
 #### 使一个 Draw2D 停止渲染.
 * #### overlay *IDraw2D <Draw2D~>*: 同 registerDraw2D
-### listDraw2Ds() 返回 List <IDraw2D <Draw2D>>
+### listDraw2Ds() 返回 List <IDraw2D <Draw2D~>>
 #### 返回所有当前显示的 Draw2D.
 ### createDraw3D() 返回 Draw3D
 #### 返回一个新的 Draw3D.
@@ -35,7 +35,7 @@
 ### unregisterDraw3D(draw) 返回 void
 #### 使一个 Draw3D 停止渲染.
 * #### draw *Draw3D*: 同 registerDraw3D
-### listDraw3Ds() 返回 List <Draw3D>
+### listDraw3Ds() 返回 List <Draw3D~>
 #### 返回所有当前显示的 Draw3D.
 ### clearDraw3Ds() 返回 void
 #### 清除当前的所有 Draw3D.
