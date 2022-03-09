@@ -1,15 +1,15 @@
 # 本文档的命令前缀为 Client
 --------------------
-### tickSynchronizer (静态 TickSync (https://jsmacros.wagyourtail.xyz/1.6.4/xyz/wagyourtail/jsmacros/client/tick/TickSync.html) 变量)
+### tickSynchronizer (静态 TickSync 变量)
 ### 千万别动. ——原作者
 --------------------
-### getMinecraft() 返回 MinecraftClient (https://wagyourtail.xyz/Projects/MinecraftMappingViewer/App?mapping=INTERMEDIARY,YARN&version=1.18&search=net/minecraft/client/MinecraftClient)
+### getMinecraft() 返回 MinecraftClient
 #### 返回当前 MC 客户端（可以瞎搞了！好耶！）.
 ### runOnMainThread(runnable) 返回 void
 #### 使你的任务在主进程上运行（？).
-* #### runnable *MethodWrapper (https://jsmacros.wagyourtail.xyz/1.6.4/xyz/wagyourtail/jsmacros/core/MethodWrapper.html) <Object, Object, Object, ?>*: 要运行的任务
+* #### runnable *MethodWrapper <Object, Object, Object, ?>*: 要运行的任务
 （不常用）
-### getGameOptions() 返回 OptionsHelper (https://jsmacros.wagyourtail.xyz/1.6.4/xyz/wagyourtail/jsmacros/client/api/helpers/OptionsHelper.html)
+### getGameOptions() 返回 OptionsHelper
 #### 返回当前客户端的设置.
 （不常用）
 ### mcVersion() 返回 String
