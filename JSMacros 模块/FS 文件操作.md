@@ -33,6 +33,6 @@
 ### getDir(path) 返回 String
 #### 返回文件的目录名，或文件夹的父文件夹名.
 * #### path *String*: 同list
-### open(path) 返回 FileHandler (https://jsmacros.wagyourtail.xyz/1.6.4/xyz/wagyourtail/jsmacros/core/library/impl/classes/FileHandler.html)
+### open(path) 返回 FileHandler
 #### 在指定路径打开一个 FileHandler（用于读写文件）.
 * #### path *String*: 同list
