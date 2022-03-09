@@ -27,11 +27,11 @@
 #### 显示一个提示（类似完成进度）
 * #### title *Object*: 标题
 * #### desc *Object*: 说明
-### createTextHelperFromString(content) 返回 TextHelper (https://jsmacros.wagyourtail.xyz/1.6.4/xyz/wagyourtail/jsmacros/client/api/helpers/TextHelper.html)
+### createTextHelperFromString(content) 返回 TextHelper
 #### 从字符串产生一个 TextHelper.
 * #### content *String*: 字符串
 （不常用）
-### getLogger([name]) 返回 Logger (https://logging.apache.org/log4j/2.x/log4j-api/apidocs/index.html?org/apache/logging/log4j/Logger.html)
+### getLogger([name]) 返回 Logger
 #### 返回一个 Logger（记录日志）.
 * #### name *String, 可选*: 名字
 （不常用）
@@ -39,13 +39,13 @@
 #### 从 JSON 字符串产生一个 TextHelper.
 * #### json *String*: JSON 字符串
 （不常用）
-### createTextBuilder() 返回 TextBuilder (https://jsmacros.wagyourtail.xyz/1.6.4/xyz/wagyourtail/jsmacros/client/api/classes/TextBuilder.html)
+### createTextBuilder() 返回 TextBuilder
 #### 返回一个 TextBuilder（带格式的东西）.
 （不常用）
-### createCommandBuilder(name) 返回 CommandBuilder (https://jsmacros.wagyourtail.xyz/1.6.4/xyz/wagyourtail/jsmacros/client/api/classes/CommandBuilder.html)
+### createCommandBuilder(name) 返回 CommandBuilder
 #### 返回一个 CommandBuilder（创建命令）.
 * #### name *String*: 名字
 （不常用）
-### getHistory() 返回 ChatHistoryManager (https://jsmacros.wagyourtail.xyz/1.6.4/xyz/wagyourtail/jsmacros/client/api/classes/ChatHistoryManager.html)
+### getHistory() 返回 ChatHistoryManager
 #### 返回一个 ChatHistoryManager（管理聊天历史记录）.
 （不常用）
